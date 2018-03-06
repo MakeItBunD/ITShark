@@ -7,11 +7,12 @@
     <title>ITShark</title>
 
     <link rel="stylesheet" href="main-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 <body>
-    <menu>
+    <aside>
         <div class="profile">
             <div class="fa fa-user-circle"></div>
             <a href="#">Hi, Dave</a>
@@ -21,7 +22,7 @@
             <a href="#">Trending Movies</a>
             <a href="#">History</a>
             <a href="#">New Movies</a>
-            <a href="#">Subscraptions</a>
+            <a href="#">Subscriptions</a>
             <a href="#">Watch Later</a>
         </div>
         <div class="bottom-menu">
@@ -30,9 +31,25 @@
             <a href="#">Artist of the Month</a>
             <a href="#">Quote of te Week</a>
         </div>
-    </menu>
-    <header>
-        <h1>Trending Movies</h1>
-    </header>
+    </aside>
+    <main>
+        <header>
+            <div class="hamburger-menu-wrapper">
+                <a href="#"><i class="fa fa-bars"></i></a>
+            </div>
+            <h1>Trending Movies</h1>
+            <div class="search-group">
+                <input placeholder="Search...">
+                <i class="fa fa-search"></i>
+            </div>
+        </header>
+            <div class="column">
+                
+            </div>
+        <footer>
+            <p>&copy; Sasha Pytel</p>
+        </footer>
+    </main>
+    <script src="main-scripts.js"></script>
 </body>
 </html>
