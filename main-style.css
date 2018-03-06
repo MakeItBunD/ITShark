@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding:  0;
+    background-color: rgb(41, 43, 54);
+    font-family: Trebuchet MS, sans-serif;
+}
+menu {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    float: left;
+}
+menu a {
+    padding: 12px 8px 12px 40px;
+    text-decoration: none;
+    font-size: 13px;
+    color: #818181;
+    display: block;
+}
+menu .top-menu a:hover,
+menu .bottom-menu a:hover {
+    background-color: rgb(75, 75, 83);
+    color: #f1f1f1;
+    border-left: 3px solid green;
+}
+menu .profile {
+    margin: 0 0 30px 0;
+    padding: 35px 0 20px 40px;
+    width: 160px;
+    height: 50px;
+    border-right: 1px solid #818181;
+}
+menu .fa-user-circle {
+    color: aliceblue;
+    font-size: 45px;
+    float: left;
+    margin-right: 20px;
+}
+menu .profile a {
+    padding: 15px 8px 15px 8px;
+}
+menu .top-menu {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #818181;
+}
+menu .bottom-menu {
+    padding-top: 20px;
+}
+header {
+    float: right;
+    max-width: 1165px;
+    margin: 0;
+    height: 105px;
+}
+header h1 {
+    display: inline;
+    margin: 0;
+    color: white;
+    font-size: 22px;
+    font-weight: 100;
+}
